@@ -1,0 +1,12 @@
+var strings = ['pro', 'gram', 'merit', 'program', 'it', 'programmer'];
+
+    const filtered = strings.filter((str) => {
+      return str.indexOf("programmerit");
+    });
+
+    const filered = strings.filter((str) => {
+      return str.charAt("progamit")
+    });
+    
+    console.log(filtered ); 
+    console.log(filered);
